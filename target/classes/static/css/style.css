@@ -1,0 +1,45 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #4CAF50; /* Navbar background color */
+    overflow: hidden; /* Clear floats */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left; /* Align items horizontally */
+}
+
+nav ul li a {
+    display: block; /* Make links clickable over the entire area */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 14px 20px; /* Padding */
+    text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+    background-color: #45a049; /* Change color on hover */
+}
+
+nav .title {
+    float: left; /* Align title on the left */
+    color: white; /* Title text color */
+    font-size: 24px; /* Title font size */
+    padding: 14px 20px; /* Padding for the title */
+}
+
+.container {
+    padding: 20px; /* Add padding for content */
+}
