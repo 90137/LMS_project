@@ -1,4 +1,4 @@
-package com.klu.Lms;
+package com.klu.lms;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
